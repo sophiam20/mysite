@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gaming Channel - My site - emobababoiiyt</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #FFFFFF;
+            color: #eee;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #FF99CC;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #FFFFFF;
+        }
+        nav {
+            background: #222;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 15px 0;
+        }
+        nav a {
+            color: #ccc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #000000;
+        }
+        section {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        h2 {
+            color: #888888 ;
+            border-bottom: 2px solid #000000;
+            padding-bottom: 5px;
+        }
+        .videos iframe {
+            width: 100%;
+            max-width: 560px;
+            height: 315px;
+            margin-bottom: 20px;
+            border: none;
+            display: block;
+        }
+        .social-links a {
+            margin-right: 15px;
+            color: #ccc;
+            text-decoration: none;
+            font-size: 1.5rem;
+        }
+        .social-links a:hover {
+            color: #000000;
+        }
+        form {
+            background: #000000 ;
+            padding: 15px;
+            border-radius: 8px;
+            max-width: 400px;
+        }
+        form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: none;
+            border-radius: 4px;
+        }
+        form button {
+            background: #888888;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        form button:hover {
+            background: #000000 ;
+        }
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background: #222;
+            color: #888;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Gaming Channel - My Site - emobababoiiyt</h1>
+</header>
+
+<nav>
+    <a href="#bio">Biography</a>
+    <a href="#videos">Video</a>
+    <a href="#news">News</a>
+    <a href="#contact">
+</nav>
+
+<section id="bio">
+    <h2>Biography</h2>
+    <p>🎮 Hey there! I'm Sophia, and I upload videos every Monday, Wednesday, and Saturday!
+
+On this channel, you'll find fun, creative, and chill content from my favorite games:
+🔹 Roblox – updates, mission guides, and roleplay.
+🔹 Identity V – gameplay, hunter/survivor moments, and ranked matches
+🔹 Pony Town – I create ponies based on your comments and share cool OC designs
+
+If you love gaming and creativity  you're in the right place! 💖
+Subscribe and join the community — maybe your idea will be my next video!</p>
+</section>
+
+<section id="videos">
+    <h2>Latest Videos</h2>
+    <div class="videos">
+        <!-- Αντικατέστησε τα βίντεο με τα δικά σου embed links -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JX5AwazTfmI" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ywhwt7ssZHI" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jBcS6rlGpC8" frameborder="0" allowfullscreen></iframe>
+
+    </div>
+</section>
+
+<section id="news">
+    <h2>News & Announcements</h2>
+    <ul>
+        <li><strong>19/07/2025:</strong> New video uploaded!</li>
+        <li><strong>21/07/2025:</strong> New video coming soon.</li>
+        <li><strong>New Videos:</strong> Every Monday, Wednesday and Saturday.</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>You can also find me on social media.:</p>
+    <div class="social-links">
+        <a href="https://twitter.com/username" target="_blank" title="TikTok">TikTok</a>
+        <a href="https://www.instagram.com/username" target="_blank" title="Instagram">Instagram</a>
+        <a href="https://www.youtube.com/channel/CHANNEL_ID" target="_blank" title="YouTube">Youtube</a>
+    </div>
+    <form id="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<footer>
+    &copy; 2025 Gaming Channel - All rights reserved
+</footer>
+
+<script>
+    // Απλή διαχείριση φόρμας επικοινωνίας (μόνο εμφάνιση alert για demo)
+    document.getElementById('contact-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        alert('Ευχαριστώ για το μήνυμά σου! Θα επικοινωνήσω σύντομα.');
+        this.reset();
+    });
+</script>
+
+</body>
+</html>
